@@ -1,0 +1,43 @@
+<html>
+
+<head>
+    <title>
+        Snake
+    </title>
+    <style>
+        #canvas {
+            background-image: url("./bg.jpg");
+            border: 20px solid green;
+        }
+        
+        #scoreValue {
+            border: 5px solid cyan;
+            height: 300px;
+            width: 300px;
+            color: "red";
+            font: ;
+        }
+        
+        body {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            justify-content: space-around;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <canvas id="canvas">
+        </canvas>
+    </div>
+    <div id="scoreValue">
+        <h2>Your Score</h2>
+        <h3 id="score">0</h3>
+    </div>
+
+    <script src="snake.js"></script>
+</body>
+
+</html>
